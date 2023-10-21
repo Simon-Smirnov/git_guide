@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Git guidance</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
 
     </header>
+    <section class="main">
+        <div class="container">
+            <h1 class="main-title">Git commands</h1>
+        </div>
+    </section>
     <section class="commands">
         <div class="container">
             <div class="commands-content">
@@ -23,56 +31,56 @@
                     <p class="commands-item_clarification"><span class="commands-item_clarification-title">if you have problems with rights, run this command</span><span class="commands-item_clarification-text">git config --global --add safe.directory path (for example E:/OpenServer4/domains/test1) </span></p>
                 </div>
                 <div class="commands-item">
-                    <h5>git config --global user.name</h5>
-                    <p>set your NAME for your git global setting on your computer</p>
+                    <h5 class="commands-item_title">git config --global user.name</h5>
+                    <p class="commands-item_effect">set your NAME for your git global setting on your computer</p>
                 </div>
                 <div class="commands-item">
-                    <h5>git config --global user.email</h5>
-                    <p>set your EMAIL for your git global setting on your computer</p>
+                    <h5 class="commands-item_title">git config --global user.email</h5>
+                    <p class="commands-item_effect">set your EMAIL for your git global setting on your computer</p>
                 </div>
                 <div class="commands-item">
-                    <h5>git init</h5>
-                    <p>turn current folder into repository and monitor the changes that occur there</p>
+                    <h5 class="commands-item_title">git init</h5>
+                    <p class="commands-item_effect">turn current folder into repository and monitor the changes that occur there</p>
                 </div>
                 <div class="commands-item">
-                    <h5>git remote add origin { url repository }</h5>
-                    <p>create a connection between a local repository and a remote one by URL</p>
+                    <h5 class="commands-item_title">git remote add origin { url repository }</h5>
+                    <p class="commands-item_effect">create a connection between a local repository and a remote one by URL</p>
                 </div>
                 <div class="commands-item">
-                    <h5>git clone { url repository }</h5>
-                    <p>download all files of a remote repository and create a local copy of this (remote) repository</p>
+                    <h5 class="commands-item_title">git clone { url repository }</h5>
+                    <p class="commands-item_effect">download all files of a remote repository and create a local copy of this (remote) repository</p>
                 </div>
                 <div class="commands-item">
-                    <h5>git status</h5>
-                    <p>show information about all uncommitted files in the current local repository</p>
+                    <h5 class="commands-item_title">git status</h5>
+                    <p class="commands-item_effect">show information about all uncommitted files in the current local repository</p>
                 </div>
                 <div class="commands-item">
-                    <h5>git add /some_files</h5>
-                    <p>prepares these files for the next commit by adding them to the git index</p>
+                    <h5 class="commands-item_title">git add /some_files</h5>
+                    <p class="commands-item_effect">prepares these files for the next commit by adding them to the git index</p>
                 </div>
                 <div class="commands-item">
-                    <h5>git add .</h5>
-                    <p>prepares all files for the next commit by adding them to the git index</p>
+                    <h5 class="commands-item_title">git add .</h5>
+                    <p class="commands-item_effect">prepares all files for the next commit by adding them to the git index</p>
                 </div>
                 <div class="commands-item">
-                    <h5>git commit -m "name_commit"</h5>
-                    <p>creates a commit from the git index and assigns it a unique code (hash). you can set the commit name with the -m parameter</p>
+                    <h5 class="commands-item_title">git commit -m "name_commit"</h5>
+                    <p class="commands-item_effect">creates a commit from the git index and assigns it a unique code (hash). you can set the commit name with the -m parameter</p>
                 </div>
                 <div class="commands-item">
-                    <h5>git log</h5>
-                    <p>will display information about all commits in chronological order</p>
+                    <h5 class="commands-item_title">git log</h5>
+                    <p class="commands-item_effect">will display information about all commits in chronological order</p>
                 </div>
                 <div class="commands-item">
-                    <h5>git checkout { hash }</h5>
-                    <p>revert (return all project files) to a commit specifying the hash</p>
+                    <h5 class="commands-item_title">git checkout { hash }</h5>
+                    <p class="commands-item_effect">revert (return all project files) to a commit specifying the hash</p>
                 </div>
                 <div class="commands-item">
-                    <h5>git push { name remote repository (for example origin) } { branch (for example master) }</h5>
-                    <p>publishes commits from the current local repository to the remote repository</p>
+                    <h5 class="commands-item_title">git push { name remote repository (for example origin) } { branch (for example master) }</h5>
+                    <p class="commands-item_effect">publishes commits from the current local repository to the remote repository</p>
                 </div>
                 <div class="commands-item">
-                    <h5>git pull { name remote repository (for example origin) } { branch (for example master) }</h5>
-                    <p>downloads from a given remote repository all commits that are not yet in the current local repository</p>
+                    <h5 class="commands-item_title">git pull { name remote repository (for example origin) } { branch (for example master) }</h5>
+                    <p class="commands-item_effect">downloads from a given remote repository all commits that are not yet in the current local repository</p>
                 </div>
             </div>
         </div>
