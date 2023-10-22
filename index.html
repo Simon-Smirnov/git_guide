@@ -39,6 +39,10 @@
                     <p class="commands-item_effect">set your EMAIL for your git global setting on your computer</p>
                 </div>
                 <div class="commands-item">
+                    <h5 class="commands-item_title">git config --global --list</h5>
+                    <p class="commands-item_effect">will show information about the global settings of the current local repository</p>
+                </div>
+                <div class="commands-item">
                     <h5 class="commands-item_title">git init</h5>
                     <p class="commands-item_effect">turn current folder into repository and monitor the changes that occur there</p>
                 </div>
@@ -71,16 +75,36 @@
                     <p class="commands-item_effect">will display information about all commits in chronological order</p>
                 </div>
                 <div class="commands-item">
+                    <h5 class="commands-item_title">git log -1</h5>
+                    <p class="commands-item_effect">will only show information about the latest commit in chronological order</p>
+                </div>
+                <div class="commands-item">
                     <h5 class="commands-item_title">git checkout { hash }</h5>
                     <p class="commands-item_effect">revert (return all project files) to a commit specifying the hash</p>
                 </div>
                 <div class="commands-item">
-                    <h5 class="commands-item_title">git push { name remote repository (for example origin) } { branch (for example master) }</h5>
+                    <h5 class="commands-item_title">git push { name remote repository (for example origin) } { branch_name (for example master) }</h5>
                     <p class="commands-item_effect">publishes commits from the current local repository to the remote repository</p>
                 </div>
                 <div class="commands-item">
                     <h5 class="commands-item_title">git pull { name remote repository (for example origin) } { branch (for example master) }</h5>
                     <p class="commands-item_effect">downloads from a given remote repository all commits that are not yet in the current local repository</p>
+                </div>
+                <div class="commands-item">
+                    <h5 class="commands-item_title">git branch</h5>
+                    <p class="commands-item_effect">will show a list of all branches available in the current local repository</p>
+                </div>
+                <div class="commands-item">
+                    <h5 class="commands-item_title">git branch { branch_name }</h5>
+                    <p class="commands-item_effect">creates a branch with the specified branch name</p>
+                </div>
+                <div class="commands-item">
+                    <h5 class="commands-item_title">git checkout { branch_name }</h5>
+                    <p class="commands-item_effect">switch to another branch with the specified branch name</p>
+                </div>
+                <div class="commands-item">
+                    <h5 class="commands-item_title">git merge { branch_name }</h5>
+                    <p class="commands-item_effect">merges the specified branch into the current branch we are on right now</p>
                 </div>
             </div>
         </div>
